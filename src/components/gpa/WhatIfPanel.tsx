@@ -2,7 +2,6 @@ import { useMemo, useState } from "react";
 import {
   GRADE_SCALE,
   calculateGpa,
-  gradePoints,
   type GradeLetter,
   type Subject,
 } from "@/lib/gpa";
@@ -125,5 +124,3 @@ export function WhatIfPanel({ subjects, currentGpa }: Props) {
     </div>
   );
 }
-
-void gradePoints;
